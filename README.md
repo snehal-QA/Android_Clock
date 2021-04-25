@@ -5,6 +5,8 @@ Setup:
 	1. Appium Server (Config.properties>> AppiumURL=http://127.0.0.1:4723/wd/hub (defaut ip & port); Incase using different ip & port; adjust accordngly under Config.properties>>AppiumURL)
 	2. Android Studio
 	3. Create AVD (Config. properties>> avd=Nexus_4_API_30 ; please add name of avd you created)
+	4. Edit deviceName in config.properties (adb devices in terminal)
+	5. Open project in Andriod Studio & Build gradle to install all required dependencies under External Dependencies.
 	
 
 App Testing Framework: 
@@ -29,5 +31,8 @@ Framework Walkthrough:
 			> Verify Analog alarm added: Assertion to validate alarm icon is enabled on Clock tab
 			> Verify Digital Alarm is added by passing Dynamic values from Properties file: Assertion on Message alarm is set 
 			> Verify Invalid time does not add alarm >> Dynamic invalid is passed from Properties file: Assertion on Message Enter a 	    valid time
-	4. src/main/java>> TestNG.xml
-		>> Suite/ tests under AlarmTest.java >> RightClick Run as TestNG suite
+	4. src/test/java>> TestNG.xml
+		>> Suite/ tests under AlarmTest.java >> 
+		Execution: RightClick Run as TestNG suite
+		
+				

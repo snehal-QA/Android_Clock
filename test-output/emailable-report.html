@@ -9,12 +9,47 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">57.603</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">3</td><td class="num">0</td><td class="num">0</td><td class="num">19.947</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.AlarmTests</td><td><a href="#m0">addAlarm_analog_validtime</a></td><td rowspan="1">1619376433480</td><td rowspan="1">15142</td></tr><tr class="passedeven"><td><a href="#m1">addAlarm_digital_validtime</a></td><td rowspan="1">1619376448639</td><td rowspan="1">10243</td></tr><tr class="passedeven"><td><a href="#m2">set_invalid_time</a></td><td rowspan="1">1619376458887</td><td rowspan="1">6864</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.AlarmTests</td><td><a href="#m0">beforeMethod</a></td><td rowspan="1">1619384357470</td><td rowspan="1">1195</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="6">tests.AlarmTests</td><td><a href="#m1">afterMethod</a></td><td rowspan="3">1619384358992</td><td rowspan="3">-1619384358992</td></tr><tr class="skippedeven"><td><a href="#m2">afterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m3">afterMethod</a></td></tr><tr class="skippedeven"><td><a href="#m4">afterTest</a></td><td rowspan="1">1619384358998</td><td rowspan="1">-1619384358998</td></tr><tr class="skippedeven"><td><a href="#m5">beforeMethod</a></td><td rowspan="2">1619384358817</td><td rowspan="2">-1619384358817</td></tr><tr class="skippedeven"><td><a href="#m6">beforeMethod</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">tests.AlarmTests</td><td><a href="#m7">addAlarm_analog_validtime</a></td><td rowspan="1">1619384358806</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m8">addAlarm_digital_validtime</a></td><td rowspan="1">1619384358820</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">set_invalid_time</a></td><td rowspan="1">1619384358891</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">tests.AlarmTests#addAlarm_analog_validtime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.AlarmTests#addAlarm_digital_validtime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">tests.AlarmTests#set_invalid_time</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">tests.AlarmTests#beforeMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Pages_Elements.AlarmPage.alarm_icon to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at Android_Clock.DriverConfig.&lt;init&gt;(DriverConfig.java:39)
+	at Pages_Elements.AlarmPage.&lt;init&gt;(AlarmPage.java:7)
+	at tests.AlarmTests.beforeMethod(AlarmTests.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.AlarmTests#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.AlarmTests#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.AlarmTests#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.AlarmTests#afterTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.AlarmTests#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.AlarmTests#beforeMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.AlarmTests#addAlarm_analog_validtime</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Pages_Elements.AlarmPage.alarm_icon to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at Android_Clock.DriverConfig.&lt;init&gt;(DriverConfig.java:39)
+	at Pages_Elements.AlarmPage.&lt;init&gt;(AlarmPage.java:7)
+	at tests.AlarmTests.beforeMethod(AlarmTests.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.AlarmTests#addAlarm_digital_validtime</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Pages_Elements.AlarmPage.alarm_icon to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at Android_Clock.DriverConfig.&lt;init&gt;(DriverConfig.java:39)
+	at Pages_Elements.AlarmPage.&lt;init&gt;(AlarmPage.java:7)
+	at tests.AlarmTests.beforeMethod(AlarmTests.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.AlarmTests#set_invalid_time</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Can not set io.appium.java_client.MobileElement field Pages_Elements.AlarmPage.alarm_icon to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
+	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
+	at Android_Clock.DriverConfig.&lt;init&gt;(DriverConfig.java:39)
+	at Pages_Elements.AlarmPage.&lt;init&gt;(AlarmPage.java:7)
+	at tests.AlarmTests.beforeMethod(AlarmTests.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

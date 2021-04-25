@@ -11,6 +11,8 @@
           <include name="addAlarm_digital_validtime"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
+          <include name="addAlarm_analog_validtime"/>
+          <include name="set_invalid_time"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
         </methods>
