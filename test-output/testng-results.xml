@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-25T19:43:47 CEST" name="Suite" finished-at="2021-04-25T19:44:36 CEST" duration-ms="48798">
+  <suite started-at="2021-04-25T20:21:27 CEST" name="Suite" finished-at="2021-04-25T20:22:39 CEST" duration-ms="72258">
     <groups>
     </groups>
-    <test started-at="2021-04-25T19:43:47 CEST" name="Test" finished-at="2021-04-25T19:44:36 CEST" duration-ms="48798">
+    <test started-at="2021-04-25T20:21:27 CEST" name="Test" finished-at="2021-04-25T20:22:39 CEST" duration-ms="72258">
       <class name="tests.AlarmTests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:43:47 CEST" name="beforeTest" finished-at="2021-04-25T19:44:06 CEST" duration-ms="18667" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:21:27 CEST" name="beforeTest" finished-at="2021-04-25T20:21:56 CEST" duration-ms="28759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:06 CEST" name="beforeMethod" finished-at="2021-04-25T19:44:06 CEST" duration-ms="398" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:21:56 CEST" name="beforeMethod" finished-at="2021-04-25T20:21:56 CEST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addAlarm_analog_validtime()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:06 CEST" name="addAlarm_analog_validtime" finished-at="2021-04-25T19:44:17 CEST" duration-ms="11436" status="PASS">
+        <test-method signature="addAlarm_analog_validtime()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:21:56 CEST" name="addAlarm_analog_validtime" finished-at="2021-04-25T20:22:12 CEST" duration-ms="15297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAlarm_analog_validtime -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:17 CEST" name="afterMethod" finished-at="2021-04-25T19:44:17 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:22:12 CEST" name="afterMethod" finished-at="2021-04-25T20:22:12 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:17 CEST" name="beforeMethod" finished-at="2021-04-25T19:44:18 CEST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:22:12 CEST" name="beforeMethod" finished-at="2021-04-25T20:22:12 CEST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addAlarm_digital_validtime()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:18 CEST" name="addAlarm_digital_validtime" finished-at="2021-04-25T19:44:26 CEST" duration-ms="8887" status="PASS">
+        <test-method signature="addAlarm_digital_validtime()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:22:12 CEST" name="addAlarm_digital_validtime" finished-at="2021-04-25T20:22:24 CEST" duration-ms="12839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAlarm_digital_validtime -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:26 CEST" name="afterMethod" finished-at="2021-04-25T19:44:26 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:22:24 CEST" name="afterMethod" finished-at="2021-04-25T20:22:24 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:26 CEST" name="beforeMethod" finished-at="2021-04-25T19:44:26 CEST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:22:24 CEST" name="beforeMethod" finished-at="2021-04-25T20:22:24 CEST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="set_invalid_time()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:26 CEST" name="set_invalid_time" finished-at="2021-04-25T19:44:32 CEST" duration-ms="5907" status="PASS">
+        <test-method signature="set_invalid_time()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:22:24 CEST" name="set_invalid_time" finished-at="2021-04-25T20:22:33 CEST" duration-ms="8374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- set_invalid_time -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:32 CEST" name="afterMethod" finished-at="2021-04-25T19:44:32 CEST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:22:33 CEST" name="afterMethod" finished-at="2021-04-25T20:22:33 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T19:44:32 CEST" name="afterTest" finished-at="2021-04-25T19:44:36 CEST" duration-ms="3394" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.AlarmTests@3c7f66c4]" started-at="2021-04-25T20:22:33 CEST" name="afterTest" finished-at="2021-04-25T20:22:39 CEST" duration-ms="6451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
