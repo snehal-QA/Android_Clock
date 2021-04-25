@@ -1,12 +1,14 @@
 Application > Native Built-in Clock Application (Available on all Andriod Emulators)>> com.google.android.deskclock
 
 Setup:
+
 	1. Appium Server (Config.properties>> AppiumURL=http://127.0.0.1:4723/wd/hub (defaut ip & port); Incase using different ip & port; adjust accordngly under Config.properties>>AppiumURL)
 	2. Android Studio
 	3. Create AVD (Config. properties>> avd=Nexus_4_API_30 ; please add name of avd you created)
 	
 
 App Testing Framework: 
+
 	>Appium (Page Object Model)>>Package: src/test/java/Pages_Elements
 	>Language: Java (TestNG) >> src/main/java/TestNG.xml
 	>Gradle: Dependancies>> JavaClient, testng
@@ -15,6 +17,7 @@ App Testing Framework:
 	>>TestNG builtin reports >>Emailable reports available under ./testoutput/emailablereport.html (added screen-shot on failure)
 	
 Framework Walkthrough:
+
     1. src/test/java>> DriverConfig.java (TestNG class) >>(Base Class)
     		>> Driver is initialized in Before test; desired capabilities needed are derived from Config.properties file.
     		>> Driver is quit in After test 
